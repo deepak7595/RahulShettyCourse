@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="url" value="https:flipjart.com"/>
+	<parameter name="username" value="Deepak007"/>
+	<parameter name="password" value="007"/>
+	
+	  <test thread-count="5" name="Deepak">
+    <classes>
+      <class name="testNG_FrameWork_Concepts.Parameterizing_from_XML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

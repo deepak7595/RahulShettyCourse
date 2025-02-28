@@ -14,7 +14,7 @@ public class Assignment1_JavaStream {
 		//get 3rd index after sorted
 
 		//To convert integer we shouldn't specify int. that should be INterger.
-		Integer a [] = {3, 2, 2, 7, 5, 9 , 8 , 1};
+		Integer a [] = {3, 222, 2, 7, 5, 2, 9 , 8 , 1};
 		List<Integer> list = Arrays.asList(a);
 		
 		
